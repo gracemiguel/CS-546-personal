@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+    background-color: darksalmon;
+    font-family: "Geneva";
+    border:  3px solid black;
+}
+
+label{
+    font-family: "Georgia";
+    font-size: 18px;
+    color: navy;
+}
+
+#info{
+    text-align: left;
+    
+}
+

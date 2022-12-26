@@ -1,0 +1,18 @@
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<form id="searchForm" >
+            <label for="search_term">TV Show</label>
+            <input type="text" id="search_term"/>
+            <input type="submit" id="search_button" value="Search"/>
+</form>
+
+<div id="showContainer">
+    <div id="show"></div>
+    <ul id="showList" hidden>
+        {{#if notShow}} 
+        <li></li>
+        {{/if}}
+    
+    </ul>
+</div>
+

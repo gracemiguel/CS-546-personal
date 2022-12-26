@@ -1,0 +1,23 @@
+<title>Show Finder</title>
+<h1>Show Finder</h1>
+<body>
+        <h1>Show Finder</h1>
+        <main>
+            <p>This website allows you to search tv shows. The following metrics will be displayed if the 
+                tv show is in the database: title, language, runtime, premiere date and rating.
+            </p>
+            <form method="POST" action="/search">
+                <label for="tv show">Find show</label>
+                <input type="text" name={{searchTerm}} id="tv show" value="{{shows.searchTerm}}" />
+                <button type="submit" value="Submit">Submit</button>
+
+            </form>
+            {{#if errors_exist}}
+            <ul>
+                {{#each errors}}
+                <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            {{/if}}
+        </main>
+    </body>

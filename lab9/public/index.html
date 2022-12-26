@@ -1,0 +1,31 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci Checker</title>
+   <link rel='stylesheet' href='style.css'/>
+    
+</head>
+<body>
+    <h1 id="header">Fibonacci and Prime Checker</h1>
+    <div class="class1">
+    <div id="error" class="error" hidden> There's an error</div>
+    <br>
+    <p>When provided with a number, the checker will return the fibonacci number of the index. If it is prime it will be green, otherwise it will be red.</p>
+    </div>
+    <form method="POST" id="myForm" action="/">
+        <label for="number_input"> Give an index to find the Fibonacci number.</label>
+        <input type="number" id="number_input" name="number"/>
+        <button id="btn"type="submit">Submit</button>
+       
+    </form>
+    <!-- <button id="btn" onclick="clicker()">Click me</button> -->
+    <ul id="results"></ul>
+    <footer>
+        <p id="name">Grace Miguel</p>  <p id="cwid">CWID: 10434781</p>
+    </footer>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+body{
+    background-color: bisque;
+    font-family: Georgia;
+    border: 2px, solid, black;
+    text-align: center;
+    color: navy;
+}
+
+label{
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+p{
+    color:black;
+}
+
+ul{
+    list-style-type: square;
+}
+
+h1{
+    color:maroon
+}
